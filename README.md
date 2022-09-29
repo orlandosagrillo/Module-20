@@ -66,7 +66,7 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 <img width="280" alt="Screen Shot 2022-09-29 at 1 37 28 pm" src="https://user-images.githubusercontent.com/102783432/192933143-d60484f1-5f83-4490-902a-9a199f442867.png">
 - Verification of the correct amount and address has shown to be valid, as amounts have been successfully transferred
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 - The creation of a Solidity Smart Contract that accepts two user addresses has been carried out successfully, as well as being able to fully control a joint savings account, through the management functions to help implement a financial instituation's requirements for providing features of a joint savings account has proved it's validity. Both accounts were able to withdraw certain amounts of ether, as well as verify if the address and amount were correct which through observation of the images above, that is correct. 
 
@@ -75,4 +75,3 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 
 
 
-]
