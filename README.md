@@ -2,6 +2,8 @@
 
 # Joint Savings Account
 
+<script src="https://gist.github.com/orlandosagrillo/4623b2b8a690d671bf6c8f4edc77abf4.js"></script> 
+
 ## Background
 
 A company is disrupting the finance industry with its own cross-border, Ethereum-compatible blockchain that connects financial institutions. Currently, the team is building smart contracts to automate many of the institutions’ financial processes and features, such as hosting joint savings accounts.
