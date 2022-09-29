@@ -35,5 +35,10 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 ## Step 2: Compile and Deploy Your Contract in the JavaScript VM
 
 <img width="354" alt="Screen Shot 2022-09-29 at 1 08 19 pm" src="https://user-images.githubusercontent.com/102783432/192931590-a48b9880-cc01-40a6-b90d-da168783fedb.png">
+Deploy & Run Transactions
 
+<img width="299" alt="Screen Shot 2022-09-29 at 1 08 42 pm" src="https://user-images.githubusercontent.com/102783432/192931836-5cff5480-e36e-4bb4-9e7e-06cd8f1c650f.png">
+Able to confirm that it successfully deployed the smart contract
+
+## Step 3: Interact with Your Deployed Smart Contract
 
