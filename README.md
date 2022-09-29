@@ -54,18 +54,19 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 #### 16 ETH Balance.
 ![Screen Shot 2022-09-29 at 1 31 24 pm](https://user-images.githubusercontent.com/102783432/192932432-e994b986-526a-4a19-9f1a-e757e98aab31.png)
 
-#### Test the contract’s withdrawal functionality
+### Test the contract’s withdrawal functionality
 
-<img width="268" alt="Screen Shot 2022-09-29 at 1 34 17 pm" src="https://user-images.githubusercontent.com/102783432/192932846-2be33922-096a-4991-859f-1c0706574097.png">
-<img width="761" alt="Screen Shot 2022-09-29 at 1 34 51 pm" src="https://user-images.githubusercontent.com/102783432/192932858-c8fbef2a-0b84-4aed-b375-e65eda5aa208.png">
-- 5 ether into accountOne + Withdrawal Proof
+- 5 ether into accountOne
+<img width="273" alt="Screen Shot 2022-09-29 at 1 43 18 pm" src="https://user-images.githubusercontent.com/102783432/192933909-37d9f5c8-6338-416c-81d2-059bc88c5ff0.png">
 
-<img width="268" alt="Screen Shot 2022-09-29 at 1 14 41 pm" src="https://user-images.githubusercontent.com/102783432/192932566-ef20630b-c1e8-4d8e-ac92-62e2c9968f72.png">
 - 10 ether into accountTwo
+<img width="268" alt="Screen Shot 2022-09-29 at 1 14 41 pm" src="https://user-images.githubusercontent.com/102783432/192932566-ef20630b-c1e8-4d8e-ac92-62e2c9968f72.png">
 
 #### View contractBalance function to verify that the funds were withdrawn from the contract, additionally using the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
 <img width="280" alt="Screen Shot 2022-09-29 at 1 37 28 pm" src="https://user-images.githubusercontent.com/102783432/192933143-d60484f1-5f83-4490-902a-9a199f442867.png">
 - Verification of the correct amount and address has shown to be valid, as amounts have been successfully transferred
+
+
 
 - The creation of a Solidity Smart Contract that accepts two user addresses has been carried out successfully, as well as being able to fully control a joint savings account, through the management functions to help implement a financial instituation's requirements for providing features of a joint savings account has proved it's validity. Both accounts were able to withdraw certain amounts of ether, as well as verify if the address and amount were correct which through observation of the images above, that is correct. 
 
