@@ -69,7 +69,7 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 #### Withdrawal - 5 ether into accountOne
 <img width="1328" alt="step 3 withdraw 5 ether" src="https://user-images.githubusercontent.com/102783432/193286250-2535c41c-6657-42cf-82b9-301d2ec6dc09.png">
 
-#### Withdrawal - 1o ether into accountTwo
+#### Withdrawal - 10 ether into accountTwo
 <img width="1323" alt="step 3 withdraw 10 eth" src="https://user-images.githubusercontent.com/102783432/193286259-61833057-f1b2-4211-82da-ca63e7f10078.png">
 
 
