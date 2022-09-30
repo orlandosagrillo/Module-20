@@ -45,39 +45,37 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Step 3: Interact with Your Deployed Smart Contract
 
-## Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
-<img width="1512" alt="step 1 deploying" src="https://user-images.githubusercontent.com/102783432/193284295-a1ae5655-9bc5-472d-af67-19f3364baec6.png">
+### Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
 
-<img width="1512" alt="step 1 set accounts" src="https://user-images.githubusercontent.com/102783432/193284309-cd10d39d-0eed-4854-b3e0-c0a1f20bad0f.png">
+<img width="1326" alt="step 1 deploying" src="https://user-images.githubusercontent.com/102783432/193285985-0c0dfcb6-44c8-47d1-9c6f-2179bab744e0.png">
 
-## Test the deposit functionality of your smart contract by sending the following amounts of ether
+<img width="1324" alt="step 1 set accounts" src="https://user-images.githubusercontent.com/102783432/193285997-4709f503-dfe9-44c5-8dd4-c843d623acda.png">
+
+
+### Test the deposit functionality of your smart contract by sending the following amounts of ether
+
 #### Transaction 1: Send 1 ether as wei.
-<img width="1512" alt="step 2 1 wei" src="https://user-images.githubusercontent.com/102783432/193284407-9b5628ff-9d9b-44df-afc1-f2a9b4844408.png">
+<img width="1322" alt="step 2 1 wei" src="https://user-images.githubusercontent.com/102783432/193286009-ef5f7f1d-7122-4234-9363-424765178a49.png">
 
 #### Transaction 2: Send 10 ether as wei.
-<img width="1512" alt="step 2 10 wei" src="https://user-images.githubusercontent.com/102783432/193284477-a5d43b81-fa62-4e38-bf73-3e6bd41bda71.png">
+<img width="1323" alt="step 2 10 wei" src="https://user-images.githubusercontent.com/102783432/193286025-7b4d1b65-67ec-46f4-bd5e-fb73bbf25f03.png">
 
 #### Transaction 3: Send 5 ether.
-<img width="1512" alt="step 2 5 ether" src="https://user-images.githubusercontent.com/102783432/193284531-2bee0398-2279-4a78-9ca6-19d6cf452f1a.png">
+<img width="1328" alt="step 2 5 ether" src="https://user-images.githubusercontent.com/102783432/193286083-79b8b46e-7e45-4c17-921e-31418637668e.png">
 
-#### 
-![Screen Shot 2022-09-29 at 1 31 24 pm](https://user-images.githubusercontent.com/102783432/192932432-e994b986-526a-4a19-9f1a-e757e98aab31.png)
 
 ### Test the contract’s withdrawal functionality
 
-- 5 ether into accountOne
-<img width="273" alt="Screen Shot 2022-09-29 at 1 43 18 pm" src="https://user-images.githubusercontent.com/102783432/192933909-37d9f5c8-6338-416c-81d2-059bc88c5ff0.png">
+#### Withdeawl - 5 ether into accountOne
+<img width="1328" alt="step 3 withdraw 5 ether" src="https://user-images.githubusercontent.com/102783432/193286250-2535c41c-6657-42cf-82b9-301d2ec6dc09.png">
 
-- 10 ether into accountTwo
-<img width="268" alt="Screen Shot 2022-09-29 at 1 14 41 pm" src="https://user-images.githubusercontent.com/102783432/192932566-ef20630b-c1e8-4d8e-ac92-62e2c9968f72.png">
+#### Withdrawal - 1o ether into accountTwo
+<img width="1323" alt="step 3 withdraw 10 eth" src="https://user-images.githubusercontent.com/102783432/193286259-61833057-f1b2-4211-82da-ca63e7f10078.png">
 
-#### View contractBalance function to verify that the funds were withdrawn from the contract, additionally using the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
-<img width="280" alt="Screen Shot 2022-09-29 at 1 37 28 pm" src="https://user-images.githubusercontent.com/102783432/192933143-d60484f1-5f83-4490-902a-9a199f442867.png">
-- Verification of the correct amount and address has shown to be valid, as amounts have been successfully transferred
 
------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 
-- The creation of a Solidity Smart Contract that accepts two user addresses has been carried out successfully, as well as being able to fully control a joint savings account, through the management functions to help implement a financial instituation's requirements for providing features of a joint savings account has proved it's validity. Both accounts were able to withdraw certain amounts of ether, as well as verify if the address and amount were correct which through observation of the images above, that is correct. 
+The creation of a Solidity Smart Contract that accepts two user addresses has been carried out successfully, as well as being able to fully control a joint savings account, through the management functions to help implement a financial instituation's requirements, has providing features of a joint savings account, proving it's validity. Both accounts were able to withdraw certain amounts of ether, as well as verification of the address and amount, as seen above.
 
 
 
