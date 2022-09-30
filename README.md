@@ -66,7 +66,7 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 
 ### Test the contract’s withdrawal functionality
 
-#### Withdeawl - 5 ether into accountOne
+#### Withdrawal - 5 ether into accountOne
 <img width="1328" alt="step 3 withdraw 5 ether" src="https://user-images.githubusercontent.com/102783432/193286250-2535c41c-6657-42cf-82b9-301d2ec6dc09.png">
 
 #### Withdrawal - 1o ether into accountTwo
