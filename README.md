@@ -45,16 +45,22 @@ To automate the creation of joint savings accounts, the creation of a Solidity s
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Step 3: Interact with Your Deployed Smart Contract
 
+## Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
+<img width="1512" alt="step 1 deploying" src="https://user-images.githubusercontent.com/102783432/193284295-a1ae5655-9bc5-472d-af67-19f3364baec6.png">
+
+<img width="1512" alt="step 1 set accounts" src="https://user-images.githubusercontent.com/102783432/193284309-cd10d39d-0eed-4854-b3e0-c0a1f20bad0f.png">
+
+## Test the deposit functionality of your smart contract by sending the following amounts of ether
 #### Transaction 1: Send 1 ether as wei.
-<img width="974" alt="Screen Shot 2022-09-29 at 1 12 29 pm" src="https://user-images.githubusercontent.com/102783432/192932241-46e9878d-dbde-406f-9617-28efb31605cd.png">
+<img width="1512" alt="step 2 1 wei" src="https://user-images.githubusercontent.com/102783432/193284407-9b5628ff-9d9b-44df-afc1-f2a9b4844408.png">
 
 #### Transaction 2: Send 10 ether as wei.
-<img width="972" alt="Screen Shot 2022-09-29 at 1 12 55 pm" src="https://user-images.githubusercontent.com/102783432/192932276-96dd2d98-db7d-4829-8fda-b5e5dccb29bb.png">
+<img width="1512" alt="step 2 10 wei" src="https://user-images.githubusercontent.com/102783432/193284477-a5d43b81-fa62-4e38-bf73-3e6bd41bda71.png">
 
 #### Transaction 3: Send 5 ether.
-<img width="962" alt="Screen Shot 2022-09-29 at 1 13 07 pm" src="https://user-images.githubusercontent.com/102783432/192932382-6e49e6fb-a7ff-4858-b5f3-be2ea8f0e1e9.png">
+<img width="1512" alt="step 2 5 ether" src="https://user-images.githubusercontent.com/102783432/193284531-2bee0398-2279-4a78-9ca6-19d6cf452f1a.png">
 
-#### 16 ETH Balance.
+#### 
 ![Screen Shot 2022-09-29 at 1 31 24 pm](https://user-images.githubusercontent.com/102783432/192932432-e994b986-526a-4a19-9f1a-e757e98aab31.png)
 
 ### Test the contract’s withdrawal functionality
